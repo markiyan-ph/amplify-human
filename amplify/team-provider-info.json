@@ -1,23 +1,29 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-people-dev-140919-authRole",
-      "UnauthRoleArn": "arn:aws:iam::120795985985:role/amplify-people-dev-140919-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::120795985985:role/amplify-people-dev-140919-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-people-dev-140919-deployment",
-      "UnauthRoleName": "amplify-people-dev-140919-unauthRole",
-      "StackName": "amplify-people-dev-140919",
-      "StackId": "arn:aws:cloudformation:us-east-1:120795985985:stack/amplify-people-dev-140919/fd148e90-eca3-11ec-aa38-0e3ee43879e1",
-      "AmplifyAppId": "djv5htqezzev6"
-    },
-    "categories": {
-      "function": {
-        "peoplefunc": {
-          "deploymentBucketName": "amplify-people-dev-140919-deployment",
-          "s3Key": "amplify-builds/peoplefunc-4d6c6a30574b41727933-build.zip"
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-people-dev-140919-authRole",
+            "UnauthRoleArn": "arn:aws:iam::120795985985:role/amplify-people-dev-140919-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::120795985985:role/amplify-people-dev-140919-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-people-dev-140919-deployment",
+            "UnauthRoleName": "amplify-people-dev-140919-unauthRole",
+            "StackName": "amplify-people-dev-140919",
+            "StackId": "arn:aws:cloudformation:us-east-1:120795985985:stack/amplify-people-dev-140919/fd148e90-eca3-11ec-aa38-0e3ee43879e1",
+            "AmplifyAppId": "djv5htqezzev6"
+        },
+        "categories": {
+            "function": {
+                "peoplefunc": {
+                    "deploymentBucketName": "amplify-people-dev-140919-deployment",
+                    "s3Key": "amplify-builds/peoplefunc-4d6c6a30574b41727933-build.zip"
+                }
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "djv5htqezzev6",
+                    "type": "cicd"
+                }
+            }
         }
-      }
     }
-  }
 }

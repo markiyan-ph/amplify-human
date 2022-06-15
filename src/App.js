@@ -19,7 +19,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <div>
           <input type="text" value={idInput} onChange={(e) => setIdInput(e.target.value)} />
-          <button onClick={() => getHuman(idInput)}>Get human info</button>
+          <button onClick={() => getHuman(idInput)}>Get Human Info!!!</button>
         </div>
         <div>
           {
