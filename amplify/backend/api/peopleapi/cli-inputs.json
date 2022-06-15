@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/human/{id}": {
+      "name": "/human/{id}",
+      "lambdaFunction": "peoplefunc",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
